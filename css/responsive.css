@@ -1,0 +1,208 @@
+@media (min-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+    .works .container, .des .container, .tour .container, .choose .container, .footer .container{
+        max-width: 1140px;
+    }
+}
+@media (max-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (max-width: 969px){
+    .menu .navbar-nav, .account, .search{
+        position: unset;
+        transform: unset;
+    }
+     .hero-box{
+        display: none !important;
+    }
+    .menu .right-header{
+        position: relative;
+        right: unset;
+        top: unset;
+        transform: unset;
+    }
+    .account, .search{
+        padding: 10px 20px;
+        width: unset;
+    }
+    .search-btn{
+        top: 0;
+        right: 10%;
+        transform: translate(-50%, 50%);
+    }
+    .move-account{
+        animation: unset;
+        right: unset;
+    }
+    .overlay-mb{
+        position: fixed;
+        background-color: hsl(0 0% 90% / 0.5);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateX(100%);
+        opacity: 0;
+        z-index: 1000;
+        transition: all .5s;
+    }
+    .slide .owl-theme .owl-nav::before{
+        width: 100px;
+    }
+    .menu{
+        position: fixed;
+        inset: 0 0 0 30%;
+        transform: translateX(100%);
+        z-index: 9999;
+        opacity: 0;
+        transition: all .5s;
+        background-color: hsl(0 0% 100% / 0.8);
+        padding: min(15vh, 160px) 32px;
+        backdrop-filter: blur(32px);
+    }
+    .navbar-light .show {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .hero-text{
+        width: 100%;
+    }
+    .hero-text h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .hero-text a{
+        padding: 10px 15px;
+    }
+    .slide .owl-theme .owl-nav{
+        width: 100%;
+    }
+    .works, .destination{
+        padding-top: 50px;
+    }
+    .works-item{
+        margin-bottom: 10px;
+    }
+    .destinations{
+        margin-top: 50px;
+        padding: 0;
+    }
+    .destinations::after{
+        display: none;
+    }
+    .title-destination{
+        position: unset;
+        margin-bottom: 20px;
+    }
+    .title-des p{
+        margin-bottom: 10px;
+    }
+    .title-des h3{
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .des-item{
+        margin-bottom: 10px;
+    }
+    .tour-img .img-pro{
+        width: 80%;
+        padding-bottom: 100%;
+    }
+    .back-blue {
+        transform: translate(0,50%);
+    }
+    .back-yellow{
+        transform: translate(0,-50%);
+    }
+    .r-shape{
+        display: none;
+    }
+    .choose-title{
+        margin-bottom: 50px;
+    }
+    .staff-list{
+        display: none;
+    }
+    .choose-item{
+        margin-bottom: 80px;
+    }
+    .customer .choose-title{
+        width: 100%;
+    }
+    .tour-content h3{
+        padding: 0;
+    }
+    .customer{
+        padding-top: 10px;
+    }
+    .bb-content .choose-title{
+        width: 100%;
+    }
+    .choose{
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+    .banner-color{
+        padding: 30px 30px 0;
+    }
+    .contact-img{
+        min-height: 210px;
+    }
+    .bb-content{
+        margin-bottom: 50px;
+    }
+    .contact{
+        width: 40%;
+    }
+    .banner-bottom, .footer{
+        padding-top: 50px;
+    }
+    .ft-contact .logo, .footer-title{
+        margin-bottom: 20px;
+    }
+    .footer-contact p, .links-item span a{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 600px){
+    .hero-text h1{
+        font-size: 24px;
+    }
+    .hero-text a{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .slide .owl-theme .owl-nav::before{
+        left: 60%;
+        transform: translate(-70%,-50%);
+    }
+    .title-des h3, .tour-content h3, .choose-title h3{
+        margin-bottom: 10px;
+    }
+    .tour-content h3{
+        margin-top: 60px;
+    }
+    .tour-title h3{
+        margin-top: 0;
+        text-align: left;
+    }
+    .tour-item .tour-icon{
+        margin-right: 10px;
+    }
+    .tour-item .tour-title{
+        width: 100%;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+    }
+    .choose-item:hover .choose-tab{
+        transform: translateY(-30px)
+    }
+    .contact-img{
+        min-height: 210px;
+    }
+    
+}
