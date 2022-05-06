@@ -853,6 +853,12 @@ input[type="date"]{
     border: 1px solid var(--pink-grey);
     margin-bottom: 10px;
     width: 100%;
+    background-color: var(--grey);
+}
+.news input:focus, .news input:focus-visible{
+    border: 1px solid var(--main-color);
+    outline: unset;
+    color: var(--main-color);
 }
 .news a{
     padding: 15px 25px;
