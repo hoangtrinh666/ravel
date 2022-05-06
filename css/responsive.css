@@ -1,4 +1,4 @@
-@media (min-width: 1400px){
+@media (max-width: 1400px){
     .container{
         max-width: 1320px;
     }
@@ -189,6 +189,7 @@
     .tour-title h3{
         margin-top: 0;
         text-align: left;
+        margin-bottom: 0;
     }
     .tour-item .tour-icon{
         margin-right: 10px;
